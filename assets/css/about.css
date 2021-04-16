@@ -117,26 +117,6 @@
 	grid-area: title;
 }
 
-/******************************************************** section ********************************************************/
-#section-about {
-    grid-area: section-about;
-    background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.15fr auto auto auto auto auto;
-	grid-template-areas:
-	"section-about-headline"
-	"site-planning-row"
-	"site-analysis-row"
-	"site-design-row"
-	"site-testing-row"
-	"site-maintenance-row";
-	height: auto;
-}
-
 /* --- progress bar --- */
 
 .process-wrapper {
@@ -870,6 +850,27 @@
 		opacity:1;
 	}
 }
+
+/******************************************************** section ********************************************************/
+#section-about {
+    grid-area: section-about;
+    background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.15fr auto auto auto auto auto;
+	grid-template-areas:
+	"section-about-headline"
+	"site-planning-row"
+	"site-analysis-row"
+	"site-design-row"
+	"site-testing-row"
+	"site-maintenance-row";
+	height: auto;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
