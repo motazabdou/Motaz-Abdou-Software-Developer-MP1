@@ -757,4 +757,38 @@ textarea {
         width: 90%;
         margin: 20px auto;
     }
+
+    #contact-home > div.footer-text > h1 {
+        grid-area: headline-bottom;
+        font-size: 2.5rem;
+        margin-bottom: 0;
+        width: 95%;
+        line-height: initial;
+    }
+
+    .headline-bottom {
+        font-size: 1.4rem;
+        width: 90%;
+        margin: 40px auto;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+
+    .section-bottom{
+        grid-area: section-bottom;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4";
+        width: 90%;
+        height: 160vh;
+        grid-gap: 5px;
+        align-items: center;
+        justify-items: center;
+        margin: 40px auto;
+    }
 }
