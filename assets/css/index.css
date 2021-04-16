@@ -348,8 +348,16 @@ nav .menu-item .active {
   }
 
   .card-back button{
-      top: 5%;
-      margin: 0 auto;
+     top: 5%;
+     margin: 0 auto;
+     width: 150px;
+     height: 45px;
+     font-size: 0.9rem;
+     background: #FDC51D;
+     color: black;
+     border: solid 1px white;
+     border-radius: 30px;
+     font-family: quicksand, sans-serif;
   }
 
   .card-back a{
