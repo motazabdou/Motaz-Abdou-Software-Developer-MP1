@@ -5,15 +5,11 @@ Personal Portfolio Website
 
   
 
-![Main Mockup](README-files/main-mockup.png) Link 
+[Link to Live Website](https://motazabdou.github.io/Motaz-Abdou-Software-Developer-MP1/)
 
   
 
-[Link to Live Website](https://crypticcaroline.github.io/ms1-plantfactory/index.html) Link 
-
-  
-
-[GitHub Repo](https://github.com/crypticCaroline/ms1-plantfactory) Link 
+[GitHub Repo](https://github.com/motazabdou/Motaz-Abdou-Software-Developer-MP1) 
 
   
 
@@ -325,45 +321,10 @@ Should the particles-js background fail to load, a backup background colour has 
 
   
 
-#### Homepage Wire Frame  
-
-  
-
-![Homepage Wireframe](README-files/homepage.png) Link 
-
-  
-
-#### Form Wireframe  
-
-  
-
-![Form Wireframe](README-files/form.png) Link 
-
-  
-
-  
-
 *** 
 
   
 
-  
-
-### Mockup 
-
-  
-
-![Mock ups](README-files/mock-ups.png) 
-
-  
-
-*** 
-
-  
-
-  
-
-  
 
 ## Features 
 
@@ -578,7 +539,3 @@ Testing
 ![HTML Validator](README-files/css-valid.png) 
 
   
-
-  
-
-A few warnings were displayed when using the validator this is because of the variables I have used to help with the maintenance of the site. The other error is due to the useing of external style sheets. I am happy with the outcome of this test. 
