@@ -373,6 +373,12 @@ nav .menu-item .active {
 	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
 }
 
+.footer-text {
+    grid-area: footer-text;
+    height: 10vh;
+    width: 100%;
+    color: white;
+}
 
 /*******************************************************************************************************************************/
 /***************************************** Media Queries - Tablets max-width 768px**********************************************/
