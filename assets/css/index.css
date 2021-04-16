@@ -174,6 +174,10 @@ nav .menu-item .active {
     font-family: quicksand, sans-serif;
 }
 
+.btn a {
+    text-decoration: none;
+    color: white;
+
 .btn:hover {
     background: #FDC51D;
     color: black;
