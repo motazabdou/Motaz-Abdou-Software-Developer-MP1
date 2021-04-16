@@ -126,20 +126,6 @@ nav .menu-item .active {
     padding: 30px;
 }
 
-/******************************************************** Section ********************************************************/
-#section-home {
-    grid-area: section;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10vh 90vh 10vh 90vh;
-    grid-template-areas:
-    "headline-top"
-    "section-main"
-    "headline-bottom"
-    "section-bottom";
-    margin: 20px auto;
-}
-
 .header-left{
     grid-area: header-left;
 }
@@ -193,6 +179,21 @@ nav .menu-item .active {
     color: black;
     transition: 0.2s all ease-in-out;
 }
+
+/******************************************************** Section ********************************************************/
+#section-home {
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 90vh 10vh 90vh;
+    grid-template-areas:
+    "headline-top"
+    "section-main"
+    "headline-bottom"
+    "section-bottom";
+    margin: 20px auto;
+}
+
 /******************************************************** Footer ********************************************************/
 #contact-home {
     grid-area: footer;
