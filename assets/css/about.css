@@ -871,6 +871,31 @@
 	height: auto;
 }
 
+.section-about-headline {
+	grid-area: section-about-headline;
+	margin: 30px auto;
+	font-family: montserrat, cursive;
+	font-size: 2.5rem;
+}
+
+.mobile-hr {
+	width: 40%;
+	border: dashed 1.5px orange;
+	margin: 40px auto 0 auto;
+	display: none;
+}
+
+strong {
+	color: #FDC51D;
+}
+
+#section-about p {
+	width: 90%;
+	text-align: justify;
+	line-height: 1.5rem;
+	margin: 20px auto;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
