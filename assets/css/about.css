@@ -302,13 +302,13 @@
 
 /**************** individual content sections ************/
 
-/* Background */
+/* Background section*/
 #progress-content-section > div.section-content.background.active > p {
 	text-align: justify;
 	width: 90%;
 }
 
-/* education */
+/* education section */
 
 .education {
 	display: grid;
@@ -445,6 +445,125 @@
 	text-align: center;
 }
 
+/* skills section */
+
+.skills {
+	display: grid;
+	width: 90%;
+	grid-template-columns: 1fr;
+	grid-auto-rows: repeat(5, 1fr);
+	grid-template-areas:
+	"skills-h2"
+	"skills-p1"
+	"technologies-used"
+	"skills-p2"
+	"skill-level";
+    margin: 0 auto;
+	justify-items: center;
+}
+
+.skills-h2 {
+	grid-area: skills-h2;
+}
+
+.skills-p1 {
+	grid-area: skills-p1;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.technologies-used {
+	grid-area: technologies-used;
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-auto-rows: 1fr 1fr;
+	grid-template-areas:
+	"html-logo css-logo js-logo bootstrap-logo jquery-logo git-logo github-logo ps-logo"
+	"html-text css-text js-text bootstrap-text jquery-text git-text github-text ps-text";
+	grid-column-gap: 30px;
+	grid-row-gap: 10px;
+	align-items: center;
+	justify-items: center;
+	width: 85%;
+	margin: 20px auto;
+	background: rgba(0,0,0,0.4);
+	border: solid 1px silver;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.html-logo {
+	grid-area: html-logo;
+}
+.html-text {
+	grid-area: html-text;
+}
+.css-logo {
+	grid-area: css-logo;
+}
+.css-text {
+	grid-area: css-text;
+}
+.js-logo {
+	grid-area: js-logo;
+}
+.js-text {
+	grid-area: js-text;
+}
+.bootstrap-logo {
+	grid-area: bootstrap-logo;
+}
+.bootstrap-text {
+	grid-area: bootstrap-text;
+}
+.jquery-logo {
+	grid-area: jquery-logo;
+}
+.jquery-text {
+	grid-area: jquery-text;
+}
+.git-logo {
+	grid-area: git-logo;
+}
+.git-text {
+	grid-area: git-text;
+}
+.github-logo {
+	grid-area: github-logo;
+}
+.github-text {
+	grid-area: github-text;
+}
+.ps-logo {
+	grid-area: ps-logo;
+}
+.ps-text {
+	grid-area: ps-text;
+}
+
+.skills-p2 {
+	grid-area: skills-p2;
+	margin: 0 auto;
+}
+
+.skill-level {
+	grid-area: skill-level;
+    width: 80%
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+@keyframes FadeInUp {
+	0% {
+		transform:translateY(15px);
+		opacity:0;
+	}
+
+	100% {
+		transform:translateY(0px);
+		opacity:1;
+	}
+}
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
