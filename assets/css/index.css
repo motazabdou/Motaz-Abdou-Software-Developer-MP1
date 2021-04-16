@@ -54,13 +54,66 @@ body {
 }
 
 /******************************************************** Navigation ********************************************************/
+nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "nav-left nav-right";
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    position: fixed;
+    z-index: 10;
+    border-bottom: 1.5px inset rgba(255, 255, 255, 0.1);
+}
 
 /******************************************************** Header ********************************************************/
-
+#header-home {
+    grid-area: header;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, auto);
+    grid-template-areas: "header-left header-right";
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    padding: 30px;
+}
 /******************************************************** Section ********************************************************/
+#section-home {
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 90vh 10vh 90vh;
+    grid-template-areas:
+    "headline-top"
+    "section-main"
+    "headline-bottom"
+    "section-bottom";
+    margin: 20px auto;
+}
 
 /******************************************************** Footer ********************************************************/
-
+#contact-home {
+    grid-area: footer;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    /* grid-template-rows: 10vh 80vh 10vh 5vh; */
+    grid-template-columns: auto;
+    grid-template-areas:
+    "footer-text"
+    "footer-form"
+    "footer-social"
+    "footer-copyright";
+    background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
+}
 /*******************************************************************************************************************************/
 /***************************************** Media Queries - Tablets max-width 768px**********************************************/
 /*******************************************************************************************************************************/
