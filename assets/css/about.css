@@ -1518,5 +1518,38 @@ strong {
 	#section-about {
 		margin-top: 0;
 		margin-bottom: 0;
+    }
+    
+    .mobile-hr {
+		display: block;
+	}
+
+	/** Footer **/
+
+	#contact-about {
+		grid-area: footer-about;
+		display: grid;
+		align-items: center;
+		justify-items: center;
+		grid-template-rows: 10vh 90vh 10vh 5vh;
+		grid-template-columns: 1fr;
+		grid-template-areas:
+		"footer-text"
+		"footer-form"
+		"footer-social"
+		"footer-copyright";
+		margin-top: 0;
+	}
+
+	.footer-text .headline {
+		margin-top: 40px;
+	}
+
+	.footer-social {
+		padding-bottom: 50px;
+	}
+
+	.footer-copyright {
+		padding: 0 0 10px 0;
 	}
 }
