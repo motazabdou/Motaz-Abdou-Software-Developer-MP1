@@ -1053,13 +1053,15 @@ strong {
 
 .footer-social {
 	grid-area: footer-social;
+	margin-top: 20px;
 }
 
 .footer-copyright {
 	grid-area: footer-copyright;
 	position: absolute;
 	bottom: 0;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,1);
+	color: white;
 	border-top: solid 1px white;
 }
 
