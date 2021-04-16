@@ -579,6 +579,19 @@ textarea {
         text-align: center;
       }
 
+      /** cards **/
+      .card {
+        margin: 0 auto;
+        width: 85%;
+        height: 90%;
+        font-size: 1.2rem;
+      }
+
+      .card img{
+        width: 40%;
+        margin: 40px auto 60px auto;
+      }
+
 }
 
 /*******************************************************************************************************************************/
