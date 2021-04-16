@@ -695,4 +695,66 @@ textarea {
         margin: 10px auto;
         display: block;
     }
+
+    /**** Section ****/
+
+    #section-home {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 120vh 12vh 185vh;
+        grid-template-areas:
+        "headline-top"
+        "section-main"
+        "headline-bottom"
+        "section-bottom";
+        width: 100%;
+        margin: 90px auto 30px auto;
+    }
+
+    .headline-top{
+        grid-area: headline-top;
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 45px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+    .section-main {
+        grid-area: section-main;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "section-main-left"
+        "section-main-right";
+        margin: 60px auto;
+    }
+
+    .section-main-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .section-main-left img {
+        width: 100%;
+    }
+
+    .section-main-right {
+        grid-area: section-main-right;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .section-main-right p {
+        width: 90%;
+        margin: 20px auto;
+    }
 }
