@@ -1275,5 +1275,73 @@ strong {
 
 	#progress-content-section .section-content h2{
 		margin: 10px auto 15px auto;
+    }
+    
+    /** Education **/
+	.education .row{
+		align-items: center;
+		justify-items: start;
+		padding: 0 10px;
+	}
+
+	.row {
+		background: rgba(0,0,0,0.3);
+	}
+
+	.logo {
+		align-items: start;
+		display: grid;
+		justify-items: center;
+	}
+
+	.row figure {
+		text-align: center;
+	}
+
+	#progress-content-section .section-content .qualification {
+		text-align: end;
+		font-size: 0.75rem;
+	}
+
+	/** Skills **/
+	.technologies-used {
+		grid-area: technologies-used;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-auto-rows: 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+		"html-logo css-logo js-logo bootstrap-logo"
+		"html-text css-text js-text bootstrap-text"
+		"jquery-logo git-logo github-logo ps-logo"
+	    "jquery-text git-text github-text ps-text";
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		align-items: center;
+		justify-items: center;
+		margin: auto;
+		background: rgba(0,0,0,0.4);
+		border: none;
+		border-radius: 0;
+		padding: 20px;
+	}
+
+	#progress-content-section > div.section-content.skills.active > div.technologies-used > img {
+		width: 35px;
+	}
+
+	#progress-content-section > div.section-content.skills.active > div.technologies-used > p {
+		font-size: 0.85rem;
+		text-align: center;
+	}
+
+	#progress-content-section > div.section-content.skills.active > div.technologies-used > img.github-logo.logo,
+	#progress-content-section > div.section-content.skills.active > div.technologies-used > img.jquery-logo.logo {
+		width: 45px;
+	}
+
+	.skill-bars {
+		width: 93%;
+		border: none;
+		border-radius: 0;
 	}
 }
