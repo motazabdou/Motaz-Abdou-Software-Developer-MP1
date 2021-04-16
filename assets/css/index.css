@@ -111,7 +111,6 @@ nav .menu-item .active {
   font-weight: bold;
   text-shadow: rgba(151, 121, 32, 0.5) 0 -1px 10px, rgba(64, 51, 11, 0.5) 0 2px 1px, rgba(151, 121, 32, 0.5) 0 0 5px, rgba(64, 51, 11, 0.5) 0 0 20px;
   border-radius: 25px;
-
 }
 /******************************************************** Header ********************************************************/
 #header-home {
@@ -126,6 +125,7 @@ nav .menu-item .active {
     justify-items: center;
     padding: 30px;
 }
+
 /******************************************************** Section ********************************************************/
 #section-home {
     grid-area: section;
@@ -140,6 +140,59 @@ nav .menu-item .active {
     margin: 20px auto;
 }
 
+.header-left{
+    grid-area: header-left;
+}
+
+.header-right {
+    grid-area: header-right;
+}
+
+.header-right img {
+    width: 80%;
+}
+
+.name {
+    font-family: "Dancing Script", cursive;
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin: 10px 0;
+    color: #FDC51D;
+}
+
+.buttons {
+    width: 100%;
+    height: 50px;
+    margin-top: 5%;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,0.6);
+    border: solid 1.5px silver;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+    padding: 10px 20px;
+    margin: auto 0.5%;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: quicksand, sans-serif;
+}
+
+.btn:hover {
+    background: #FDC51D;
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
 /******************************************************** Footer ********************************************************/
 #contact-home {
     grid-area: footer;
