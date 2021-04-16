@@ -439,6 +439,26 @@ textarea {
     background: #FDC51D;
     color: black;
 }
+
+.footer-social {
+    grid-area: footer-social;
+    height: 10vh;
+}
+
+.footer-social-menu{
+    list-style: none;
+}
+
+.footer-social-icon {
+    display: inline-block;
+    line-height: 10vh;
+    font-size: 1.7rem;
+    margin: 0 20px 20px 20px;
+}
+
+.footer-social-icon a {
+    color: white;
+}
 /*******************************************************************************************************************************/
 /***************************************** Media Queries - Tablets max-width 768px**********************************************/
 /*******************************************************************************************************************************/
