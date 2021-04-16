@@ -485,6 +485,19 @@ textarea {
         "footer";
         overflow: hidden;
     }
+    
+    /* Nav */
+    nav {
+        grid-template-columns: 0.3fr 0.7fr;
+    }
+
+    nav .menu-item a{
+        font-size: 1rem;
+    }
+
+    .logo a {
+        font-size: 2rem;
+    }
 }
 
 /*******************************************************************************************************************************/
