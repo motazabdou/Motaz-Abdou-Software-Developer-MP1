@@ -1162,3 +1162,7 @@ strong {
 		margin: 0 auto;
 	}
 }
+
+@media only screen and (min-width: 350px) and (max-width: 600px){
+    
+}
