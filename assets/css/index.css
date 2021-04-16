@@ -592,8 +592,42 @@ textarea {
         margin: 40px auto 60px auto;
       }
 
+      /** Footer **/
+      /** footer **/
+
+      #contact-home {
+        margin-top: 30px;
+        height: 100vh;
+      }
+
+      .headline-bottom {
+          margin-bottom: 40px;
+      }
+
+      .footer-text .headline {
+          margin: 0 auto;
+      }
+
+      .footer-text p {
+          margin: 0 auto;
+      }
+
+      form {
+          width: 70%;
+          padding: 40px 20px;
+      }
+
+      .footer-cta {
+          margin: 20px auto;
+          width: 50%;
+      }
+    }
 }
 
 /*******************************************************************************************************************************/
 /***************************************** Media Queries - mobile max-width 600px**********************************************/
 /*******************************************************************************************************************************/
+
+@media only screen and (min-width: 280px) and (max-width: 600px){
+    
+}
