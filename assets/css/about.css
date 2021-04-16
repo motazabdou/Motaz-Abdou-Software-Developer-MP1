@@ -922,6 +922,32 @@ strong {
 	width: 100%;
 }
 
+/** Site analysis row **/
+.site-analysis-row {
+	grid-area: site-analysis-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "site-analysis-img site-analysis";
+	width: 90%;
+	height: 40vh;
+	margin: 40px auto;
+	justify-items: center;
+	align-items: center;
+}
+
+.site-analysis {
+	grid-area: site-analysis;
+}
+
+.site-analysis-img {
+	grid-area: site-analysis-img;
+}
+
+.site-analysis-img img {
+	width: 100%;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
