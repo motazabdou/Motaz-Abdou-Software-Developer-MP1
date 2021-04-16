@@ -1059,6 +1059,8 @@ strong {
 	grid-area: footer-copyright;
 	position: absolute;
 	bottom: 0;
+	background: rgba(0,0,0,0.6);
+	border-top: solid 1px white;
 }
 
 form .hvr-float-shadow {
