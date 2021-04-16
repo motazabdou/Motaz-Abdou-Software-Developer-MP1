@@ -1343,5 +1343,106 @@ strong {
 		width: 93%;
 		border: none;
 		border-radius: 0;
+    }
+    
+    /** Interests **/
+	.interests-row {
+		background: rgba(0,0,0,0.3);
+		padding: 20px;
+		align-items: center;
+		margin: 20px auto;
+		width: 100%;
+	}
+
+	.coding-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "coding-image"
+		"coding-info";
+		padding: 0;
+	}
+
+	.coding-image {
+		width: 30%;
+	}
+
+	.coding-info {
+		width: 100%;
+	}
+
+	.psychology-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+		"psychology-image"
+		"psychology-info";
+		padding: 0;
+		}
+
+	.psychology-image {
+		width: 30%;
+	}
+
+	.psychology-info {
+		width: 100%;
+	}
+
+	.mma-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "mma-image"
+		"mma-info";
+		padding: 0;
+	}
+
+	.mma-image {
+		width: 30%;
+	}
+
+	.mma-info {
+		width: 100%;
+	}
+
+	.music-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "music-image"
+		"music-info";
+		padding: 0;
+	}
+
+	.music-image {
+		width: 30%;
+	}
+
+	.music-info {
+		width: 100%;
+	}
+
+	.hiking-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas: "hiking-image"
+		"hiking-info";
+		padding: 0;
+	}
+
+	.hiking-image {
+		width: 30%;
+	}
+
+	.hiking-info {
+		width: 100%;
+	}
+
+	#progress-content-section > div.section-content.interests.active > div > p {
+		text-align: justify;
+		width: 85%;
+		position: relative;
+		top: -30px;
+	}
+
+	strong {
+		color: #FDC51D;
 	}
 }
