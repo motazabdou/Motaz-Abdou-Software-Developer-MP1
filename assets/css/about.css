@@ -1058,3 +1058,52 @@ strong {
 	grid-area: footer-copyright;
 	bottom: 0;
 }
+
+/*******************************************************************************************************************************/
+/*************************************** Media Queries - Tablets max-width: 768px **********************************************/
+/*******************************************************************************************************************************/
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+/** progress bar & section content **/
+.about-navigation-bar {
+		grid-template-columns: 0.3fr 0.7fr;
+	}
+
+	.process-wrapper {
+		margin: 20px 0;
+		width: 100%;
+		min-height: 80vh;
+		border-radius: 0;
+	}
+
+	.row {
+		padding: 0;
+	}
+
+	#progress-bar-container {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#progress-bar-container li .step-inner {
+		font-size: 1rem;
+	}
+
+	#progress-content-section .section-content p {
+		font-size: 1rem;
+	}
+
+	#progress-content-section .section-content .qualification {
+		text-align: left;
+		font-size: 0.97rem;
+		width: 100%;
+	}
+
+	#progress-content-section .section-content{
+		padding-left: 0;
+		padding-right: 0;
+	}
+    
+
+}
