@@ -1000,6 +1000,32 @@ strong {
 	width: 100%;
 }
 
+/** site maintenance **/
+.site-maintenance-row {
+	grid-area: site-maintenance-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "site-maintenance site-maintenance-img";
+	width: 90%;
+	height: auto;
+	margin: 40px auto;
+	justify-items: center;
+	align-items: center;
+}
+
+.site-maintenance {
+	grid-area: site-maintenance;
+}
+
+.site-maintenance-img {
+	grid-area: site-maintenance-img;
+}
+
+.site-maintenance-img img {
+	width: 100%;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
