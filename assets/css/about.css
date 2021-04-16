@@ -1041,3 +1041,20 @@ strong {
 	background: rgb(0,0,0);
 	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
 }
+
+.footer-text {
+	grid-area: footer-text;
+}
+
+.footer-form {
+	grid-area: footer-form;
+}
+
+.footer-social {
+	grid-area: footer-social;
+}
+
+.footer-copyright {
+	grid-area: footer-copyright;
+	bottom: 0;
+}
