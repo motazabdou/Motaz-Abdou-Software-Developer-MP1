@@ -791,4 +791,23 @@ textarea {
         justify-items: center;
         margin: 40px auto;
     }
+
+    /*** Flip Cards ***/
+  
+  .card {
+    margin: 15px auto;
+    width: 75%;
+    font-size: 1.1rem;
+  }
+  
+  .card img{
+    width: 40%;
+    margin: 40px auto 60px auto;
+  }
+  
+  .card h2{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: montserrat;
+  }
 }
