@@ -896,6 +896,32 @@ strong {
 	margin: 20px auto;
 }
 
+/** site planning row **/
+.site-planning-row {
+	grid-area: site-planning-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "site-planning site-planning-img";
+	width: 85%;
+	height: 40vh;
+	margin: 10px auto 40px auto;
+	justify-items: center;
+	align-items: center;
+}
+
+.site-planning {
+	grid-area: site-planning;
+}
+
+.site-planning-img {
+	grid-area: site-planning-img;
+}
+
+.site-planning-img img {
+	width: 100%;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
