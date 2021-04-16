@@ -299,6 +299,152 @@
 #progress-content-section .section-content.active {
 	display:block;
 }
+
+/**************** individual content sections ************/
+
+/* Background */
+#progress-content-section > div.section-content.background.active > p {
+	text-align: justify;
+	width: 90%;
+}
+
+/* education */
+
+.education {
+	display: grid;
+	width: 90%;
+	grid-auto-rows: repeat(5, 1fr);
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"education-h2"
+	"codeinstitute-row"
+	"google-row"
+	"irishtimes-row"
+	"ucd-row";
+    margin: 0 auto;
+	grid-row-gap: 60px;
+}
+
+.row {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: rgba(0,0,0,0.3);
+	padding: 20px;
+	align-items: center;
+}
+
+.row figure {
+	text-align: center;
+	font-size: 0.85rem;
+	color: white;
+}
+
+.row figcaption {
+	margin-top: 5px;
+}
+
+.education-h2 {
+	grid-area: education-h2;
+}
+
+.codeinstitute-row {
+	grid-area: codeinstitute-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-template-areas:
+	"codeinstitute-logo codeinstitute-date codeinstitute-qualification";
+}
+
+.education .codeinstitute-logo {
+	grid-area: codeinstitute-logo;
+	width: 60px;
+}
+
+.codeinstitute-date {
+	grid-area: codeinstitute-date;
+}
+
+.codeinstitute-qualification {
+	grid-area: codeinstitute-qualification;
+}
+
+.google-row {
+	grid-area: google-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-template-areas:
+	"google-logo google-date google-qualification";
+}
+
+.google-logo {
+	grid-area: google-logo;
+}
+
+.google-date {
+	grid-area: google-date;
+}
+
+.google-qualification {
+	grid-area: google-qualification;
+}
+
+.irishtimes-row {
+	grid-area: irishtimes-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-template-areas:
+	"irishtimes-logo irishtimes-date irishtimes-qualification";
+}
+
+.irishtimes-logo {
+	grid-area: irishtimes-logo;
+}
+
+.irishtimes-date {
+	grid-area: irishtimes-date;
+}
+
+.irishtimes-qualification {
+	grid-area: irishtimes-qualification;
+}
+
+.ucd-row {
+	grid-area: ucd-row;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: 1fr;
+	grid-template-areas:
+	"ucd-logo ucd-date ucd-qualification";
+}
+
+.ucd-logo {
+	grid-area: ucd-logo;
+}
+
+.ucd-date {
+	grid-area: ucd-date;
+}
+
+.ucd-qualification {
+	grid-area: ucd-qualification;
+}
+
+.logo {
+	width: 40px;
+}
+
+#progress-content-section .section-content .qualification {
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+#progress-content-section .section-content .date {
+	text-align: center;
+}
+
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
