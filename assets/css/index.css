@@ -194,6 +194,79 @@ nav .menu-item .active {
     margin: 20px auto;
 }
 
+.headline{
+    grid-area: headline-top;
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    font-family: "Montserrat", cursive;
+    color: #FDC51D;
+    font-size: 3rem;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.section-main {
+    grid-area: section-main;
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "section-main-left section-main-right";
+    align-items: center;
+    justify-items: center;
+    margin: 50px auto;
+}
+
+.section-main-left {
+    grid-area: section-main-left;
+}
+
+.section-main-left img {
+    width: 85%;
+}
+
+.section-main-right {
+    grid-area: section-main-right;
+}
+
+.section-main-right p {
+    width: 90%;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    color: #2b2a2a;
+}
+
+.headline-bottom {
+    grid-area: headline-bottom;
+    font-family: Montserrat, cursive;
+    color: #FDC51D;
+    margin: 50px auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.section-bottom{
+    grid-area: section-bottom;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "card1 card2 card3 card4";
+    width: 90%;
+    grid-gap: 30px;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+/* cards */
+
 /******************************************************** Footer ********************************************************/
 #contact-home {
     grid-area: footer;
