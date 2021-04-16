@@ -106,6 +106,16 @@
 	z-index: 3;
 }
 
+.item1 {
+	color: #FDC51D;
+	font-family: montserrat, cursive;
+	font-weight:700;
+	margin-top: 5%;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	grid-area: title;
+}
 /******************************************************** section ********************************************************/
 #section-about {
     grid-area: section-about;
