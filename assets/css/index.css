@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@100;200;400;900&family=Roboto:wght@100;300&family=Quicksand&family=Tangerine&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 73%);
+    z-index: 3;
+    /* clip-path: ellipse(99% 99% at 50% 0%); */
+  }
+
+  #particles-js2 {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 73%);
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh 90vh auto auto;
+    grid-template-areas:
+    "nav"
+    "header"
+    "section"
+    "footer";
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.grid-item{
+    text-align: center;
+}
+
+/******************************************************** Navigation ********************************************************/
+
+/******************************************************** Header ********************************************************/
+
+/******************************************************** Section ********************************************************/
+
+/******************************************************** Footer ********************************************************/
+
+/*******************************************************************************************************************************/
+/***************************************** Media Queries - Tablets max-width 768px**********************************************/
+/*******************************************************************************************************************************/
+
+/*******************************************************************************************************************************/
+/***************************************** Media Queries - mobile max-width 600px**********************************************/
+/*******************************************************************************************************************************/
