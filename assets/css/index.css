@@ -71,6 +71,48 @@ nav {
     border-bottom: 1.5px inset rgba(255, 255, 255, 0.1);
 }
 
+.nav-left {
+    grid-area: nav-left;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.logo {
+    line-height: 10vh;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #FDC51D;
+    font-weight: bold;
+}
+
+.nav-right {
+    grid-area: nav-right;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-item{
+    display: inline-block;
+    line-height: 10vh;
+    margin-left: 40px;
+}
+
+nav .menu-item .active {
+  outline: none;
+  color: rgba(254, 239, 158, 1);
+  overflow: hidden;
+  background: -o-linear-gradient(transparent, transparent);
+  font-weight: bold;
+  text-shadow: rgba(151, 121, 32, 0.5) 0 -1px 10px, rgba(64, 51, 11, 0.5) 0 2px 1px, rgba(151, 121, 32, 0.5) 0 0 5px, rgba(64, 51, 11, 0.5) 0 0 20px;
+  border-radius: 25px;
+
+}
 /******************************************************** Header ********************************************************/
 #header-home {
     grid-area: header;
@@ -114,6 +156,8 @@ nav {
     background: rgb(0,0,0);
 	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
 }
+
+
 /*******************************************************************************************************************************/
 /***************************************** Media Queries - Tablets max-width 768px**********************************************/
 /*******************************************************************************************************************************/
