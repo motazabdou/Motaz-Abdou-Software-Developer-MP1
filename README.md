@@ -49,8 +49,6 @@ For those purposes, I have opted for an intuitive design, and a number of intera
 
 * [Testing](#testing) 
 
-* [Known Bugs](#known-bugs) 
-
 * [Deployment](#deployment) 
 
 * [Acknowledgements](#credit) 
