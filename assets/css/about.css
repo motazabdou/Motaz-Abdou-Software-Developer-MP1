@@ -1057,6 +1057,7 @@ strong {
 
 .footer-copyright {
 	grid-area: footer-copyright;
+	position: absolute;
 	bottom: 0;
 }
 
