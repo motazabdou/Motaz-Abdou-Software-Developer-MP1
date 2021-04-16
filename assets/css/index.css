@@ -518,11 +518,11 @@ textarea {
 
     /* Nav */
     
-    nav {
+    #particles-js > div > nav{
         grid-template-columns: 0.3fr 0.7fr;
     }
     
-    nav .menu-item a{
+    #navigation-bar .menu-item a{
         font-size: 1rem;
     }
     
@@ -672,6 +672,10 @@ textarea {
         width: 100%;
         height: 110vh;
         }
+	
+    .nav-right {
+	    display: none;
+	}
 
     /************* header *************/
 
