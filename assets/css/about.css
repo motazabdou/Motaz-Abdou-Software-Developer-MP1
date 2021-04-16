@@ -1061,6 +1061,19 @@ strong {
 	bottom: 0;
 }
 
+form .hvr-float-shadow {
+    display: block;
+    margin: 10px auto;
+    width: 40%;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+    border: solid 1px white;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-family: quicksand, sans-serif;
+}
+
 /*******************************************************************************************************************************/
 /*************************************** Media Queries - Tablets max-width: 768px **********************************************/
 /*******************************************************************************************************************************/
