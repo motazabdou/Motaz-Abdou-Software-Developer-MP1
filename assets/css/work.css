@@ -1,6 +1,6 @@
 #body-work {
     background: rgb(0,0,0);
-	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
+    background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
     overflow-x: hidden;
 }
 
@@ -58,4 +58,64 @@
     width: 100%;
     height: 40vh;
     border: solid 2px white;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 600px){
+    .work-container {
+        display: grid;
+        grid-auto-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "project1" 
+        "project2"
+        "project3" 
+        "project4";
+        justify-items: center;
+        align-items: center;
+        width: 85%;
+        margin: 10% auto;
+        grid-gap: 40px;
+    }
+
+    .work-headline {
+        font-family: Montserrat;
+        font-size: 2rem;
+        color: #FDC51D;
+        margin-top: 20%;
+    }
+
+    .project1, .project2,
+    .project3, .project4 {
+        height: 25vh;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .work-container {
+        display: grid;
+        grid-auto-rows: auto auto auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "project1" 
+        "project2"
+        "project3" 
+        "project4";
+        justify-items: center;
+        align-items: center;
+        width: 85%;
+        margin: 7% auto;
+        grid-gap: 40px;
+    }
+
+    .work-headline {
+        font-family: Montserrat;
+        font-size: 4rem;
+        color: #FDC51D;
+        margin-top: 20%;
+    }
+
+    .project1, .project2,
+    .project3, .project4 {
+        height: 30vh;
+    }
 }
