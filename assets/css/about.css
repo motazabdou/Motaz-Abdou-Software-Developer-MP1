@@ -1444,5 +1444,79 @@ strong {
 
 	strong {
 		color: #FDC51D;
+    }
+    
+    /** Section **/
+	#section-about {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.15fr auto auto auto auto auto;
+		grid-template-areas:
+		"section-about-headline"
+		"site-planning-row"
+		"site-analysis-row"
+		"site-design-row"
+		"site-testing-row"
+		"site-maintenance-row";
+		height: auto;
+	}
+
+	.site-planning-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 0.5fr;
+		grid-template-areas:
+		"site-planning-img"
+		"site-planning";
+		width: 100%;
+		height: auto;
+		margin: 10px auto 30px auto;
+	}
+
+	.site-analysis-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 0.5fr;
+		grid-template-areas:
+		"site-analysis-img"
+		"site-analysis";
+		width: 100%;
+		height: auto;
+		margin: 10px auto 30px auto;
+	}
+
+	.site-design-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 0.5fr;
+		grid-template-areas:
+		"site-design-img"
+		"site-design";
+		width: 100%;
+		height: auto;
+		margin: 10px auto 30px auto;
+	}
+
+	.site-testing-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 0.5fr;
+		grid-template-areas:
+		"site-testing-img"
+		"site-testing";
+		width: 100%;
+		height: auto;
+		margin: 10px auto 30px auto;
+	}
+
+	.site-maintenance-row {
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 0.5fr;
+		grid-template-areas:
+		"site-maintenance-img"
+		"site-maintenance";
+		width: 100%;
+		height: auto;
+		margin: 10px auto 30px auto;
+	}
+
+	#section-about {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
