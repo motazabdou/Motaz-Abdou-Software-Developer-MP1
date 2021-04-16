@@ -564,6 +564,150 @@
 		opacity:1;
 	}
 }
+
+/** Interests section **/
+.interests {
+	display: grid;
+	width: 100%;
+	grid-auto-rows: repeat(5, 1fr);
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"coding-row"
+	"psychology-row"
+	"mma-row"
+	"music-row"
+	"hiking-row";
+	margin: 0 auto;
+	align-items: center;
+	justify-items: center;
+}
+
+.interests-row {
+	background: rgba(0,0,0,0.3);
+	padding: 20px;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#progress-content-section > div.section-content.interests.active > div > p {
+	text-align: justify;
+}
+
+.coding-row {
+	grid-area: coding-row;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr;
+	grid-template-areas: "coding-image coding-info";
+	padding: 30px 10px;
+	align-items: center;
+	justify-items: center;
+	width: 90%;
+}
+
+.coding-image {
+	grid-area: coding-image;
+	width: 50%;
+}
+
+.coding-info {
+	grid-area: coding-info;
+	width: 80%;
+	text-align: justify;
+}
+
+.psychology-row {
+	grid-area: psychology-row;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr;
+	grid-template-areas: "psychology-image psychology-info";
+	padding: 30px 10px;
+	align-items: center;
+	justify-items: center;
+	width: 90%;
+}
+
+.psychology-image {
+	grid-area: psychology-image;
+	width: 50%;
+}
+
+.psychology-info {
+	grid-area: psychology-info;
+	width: 80%;
+	text-align: justify;
+}
+
+.mma-row {
+	grid-area: mma-row;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr;
+	grid-template-areas: "mma-image mma-info";
+	align-items: center;
+	justify-items: center;
+	padding: 30px 10px;
+	width: 90%;
+}
+
+.mma-image {
+	grid-area: mma-image;
+	width: 50%;
+}
+
+.mma-info {
+	grid-area: mma-info;
+	width: 80%;
+	text-align: justify;
+}
+
+.music-row {
+	grid-area: music-row;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr;
+	grid-template-areas: "music-image music-info";
+	padding: 30px 10px;
+	align-items: center;
+	justify-items: center;
+	width: 90%;
+}
+
+.music-image {
+	grid-area: music-image;
+	width: 50%;
+}
+
+.music-info {
+	grid-area: music-info;
+	width: 80%;
+	text-align: justify;
+}
+
+.hiking-row {
+	grid-area: hiking-row;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 1fr;
+	grid-template-areas: "hiking-image hiking-info";
+	padding: 30px 10px;
+	align-items: center;
+	justify-items: center;
+	width: 90%;
+}
+
+.hiking-image {
+	grid-area: hiking-image;
+	width: 50%;
+}
+
+.hiking-info {
+	grid-area: hiking-info;
+	width: 80%;
+	text-align: justify;
+}
 /******************************************************** footer ********************************************************/
 #contact-about {
     grid-area: footer-about;
