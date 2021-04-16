@@ -27,3 +27,72 @@
     z-index: 3;
 	position: relative;
   }
+
+/******************************************************** Nav ************************************************************/
+.about-navigation-bar {
+    grid-area: about-navigation-bar;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "nav-left nav-right";
+	width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    position: fixed;
+    z-index: 10;
+    border-bottom: 1.5px inset rgba( 255, 255, 255, 0.18 );
+}
+
+/******************************************************** header ********************************************************/
+#header-about {
+    grid-area: header-about;
+	display: grid;
+	grid-template-rows: 10vh auto;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+	"title"
+	"process-wrapper";
+	width: 100%;
+	min-height: 90vh;
+	grid-column-gap: 20px;
+	z-index: 3;
+}
+
+/******************************************************** section ********************************************************/
+#section-about {
+    grid-area: section-about;
+    background-image: url("https://image.freepik.com/free-vector/white-abstract-background_23-2148810353.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.15fr auto auto auto auto auto;
+	grid-template-areas:
+	"section-about-headline"
+	"site-planning-row"
+	"site-analysis-row"
+	"site-design-row"
+	"site-testing-row"
+	"site-maintenance-row";
+	height: auto;
+}
+
+/******************************************************** footer ********************************************************/
+#contact-about {
+    grid-area: footer-about;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "footer-text"
+    "footer-form"
+    "footer-social"
+    "footer-copyright";
+	background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 93%);
+}
