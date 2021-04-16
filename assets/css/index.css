@@ -489,7 +489,8 @@ textarea {
 
 .footer-copyright {
     grid-area: footer-copyright;
-    background: gold;
+    background: rgba(0,0,0,0.6);
+    border-top: solid 1px white;
     height: 5vh;
     width: 100vw;
     line-height: 5vh;
