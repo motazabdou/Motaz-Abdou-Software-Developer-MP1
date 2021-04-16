@@ -265,7 +265,96 @@ nav .menu-item .active {
     margin: 0 auto;
 }
 
-/* cards */
+/* cards - card front */
+.card1 {
+      grid-area: card1;
+      width: 90%;
+  }
+
+  .card2 {
+    grid-area: card2;
+    width: 90%;
+}
+
+.card3 {
+    grid-area: card3;
+    width: 90%;
+}
+
+.card4 {
+    grid-area: card4;
+    width: 90%;
+}
+
+  .card {
+    background-color: transparent;
+    height: 300px;
+    perspective: 1000px;
+    margin: 0 1.7%;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: solid 1.5px white;
+    border-radius: 50px;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(9, 31, 124) 0%, rgba(0,0,0,1) 73%);
+  }
+
+  .card-inner img{
+    width: 50%;
+    margin: 20% 0;
+  }
+
+  /* Horizontal flip */
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .card-front {
+    color: #FDC51D;
+    font-family: quicksand, cursive;
+    font-weight: bolder;
+  }
+
+  .card-back {
+    color: white;
+    background-color: rgba(255,255,255,0.02);
+    transform: rotateY(180deg);
+    position: relative;
+  }
+
+  .card-back p{
+    font-family: Quicksand, sans-serif;
+    margin: 20% auto;
+    width: 85%;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .card-back button{
+      top: 5%;
+      margin: 0 auto;
+  }
+
+  .card-back a{
+    text-decoration: none;
+  }
 
 /******************************************************** Footer ********************************************************/
 #contact-home {
