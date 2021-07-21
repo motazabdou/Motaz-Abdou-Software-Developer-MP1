@@ -202,7 +202,6 @@
 	box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
 	transition:all ease 0.2s;
 	position: relative;
-	top: 7px;
 }
 
 #progress-bar-container li:hover:after {
